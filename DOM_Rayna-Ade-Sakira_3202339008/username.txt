@@ -1,3 +1,0 @@
-email = ayamgoyeng@kentucky 
-sandi = dahlah
-user = ayam
