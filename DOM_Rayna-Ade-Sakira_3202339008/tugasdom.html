@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login User</title>
+  <link rel="stylesheet" href="css/tugasdom.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <!-- Logo pengguna -->
+      <img src="img/logo.png" alt="User Icon" class="logo" />
+      
+      <h2>LOGIN USER</h2>
+      
+      <!-- Input email/username -->
+      <input type="text" id="username" placeholder="Email atau Username" />
+
+      <!-- Input password + ikon 👁️ -->
+      <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Password" />
+        <span id="togglePassword" class="toggle-password">👁️</span>
+      </div>
+
+      <!-- Tombol login -->
+      <button id="login-btn">LOGIN</button>
+
+      <!-- Pesan error -->
+      <p id="login-error" class="error hidden">❌ Email/Username atau password salah.</p>
+    </div>
+  </div>
+
+  <script src="js/tugasdom.js"></script>
+</body>
+</html>
